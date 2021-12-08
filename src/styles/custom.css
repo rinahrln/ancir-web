@@ -1,0 +1,9 @@
+.card .card-img-top {
+    filter: brightness(50%);
+}
+@media (min-width: 992px){
+    .row .col-lg-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
