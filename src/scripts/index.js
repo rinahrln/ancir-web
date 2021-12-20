@@ -1,3 +1,7 @@
+import 'regenerator-runtime';
+
+import '../styles/main.css';
+import '../styles/custom.css';
 
 window.addEventListener('DOMContentLoaded', event => {
 
