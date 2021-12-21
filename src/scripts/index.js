@@ -8,7 +8,15 @@ const app = new App({
     button: document.querySelector('#menuButton'),
     drawer: document.querySelector('#navbarResponsive'),
     content: document.querySelector('#mainContent'),
-})
+});
+
+window.addEventListener('hashchange', () => {
+    app.renderPage();
+});
+
+window.addEventListener('load', () => {
+    app.renderPage();
+});
 
 // window.addEventListener('DOMContentLoaded', event => {
 
