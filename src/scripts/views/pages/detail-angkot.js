@@ -14,3 +14,5 @@ const DetailAngkot = {
         console.log(angkot);
     }
 }
+
+export default DetailAngkot;

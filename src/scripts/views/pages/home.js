@@ -33,6 +33,9 @@ const Home = {
 
     async afterRender() {
 
+        const header = document.querySelector('.masthead');
+        header.style.display = 'flex';
+
     },
 };
 
