@@ -1,16 +1,28 @@
 import AncirWebResource from '../../data/ancirweb-source';
+import detailBrt from '../templates/brt-detail';
 
 const Brt = {
     async render() {
         return `
-            <h2>BRT Page</h2>
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Rute BRT</h2>
+                </div>
+                <div id="brt"></div>
+            </div>
+        </section>
         `;
     },
 
     async afterRender() {
-        const brt = await AncirWebResource.brt();
-        console.log(brt);
-    },
+        const databrt = await AncirWebResource.brt();
+        const brtContainer = document.querySelector('#brt');
+        brtContainer.innerHTML = detailBrt(databrt);
+
+        const header = document.querySelector('.masthead');
+        header.style.display = 'none';
+    }
 };
 
 export default Brt;
