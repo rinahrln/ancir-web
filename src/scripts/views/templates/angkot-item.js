@@ -8,7 +8,7 @@ const angkotItem = (angkot) => `
                 </span>
             </div>
             <div class="card-body">
-                <h5 class="card-title"><a href="${`{/#/angkot/${angkot.id}`}">${angkot.kodeAngkot}</a></h5>
+                <h5 class="card-title"><a href="${`/#/angkot/${angkot.id}`}">${angkot.kodeAngkot}</a></h5>
                 <p class"text-muted">${angkot.deskripsi}</p>
             </div>                         
         </div>

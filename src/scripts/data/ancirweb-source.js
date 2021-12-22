@@ -13,7 +13,7 @@ class AncirWebResource {
 
     static async detailAngkot(id) {
         const response = await fetch(API_ENDPOINT.DETAIL(id));
-        return response.json();
+        return response.json();     
     }
 }
 
