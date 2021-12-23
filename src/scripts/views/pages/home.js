@@ -32,7 +32,7 @@ const Home = {
                 <div id="title" class="text-center mt-5">
                     <h2 class="section-heading text-uppercase">About</h2>
                 </div>
-                <div id="about" class="container text-center">
+                <div id="about" class="container text-center text-muted">
                     <p>ANCIR WEB merupakan aplikasi web yang digunakan untuk melihat rute, jadwal, dan juga informasi biaya pada Angkot dan BRT yang ada di kota Cirebon. ANCIR WEB memudahkan masyarakat Cirebon atau pengunjung baru yang datang ke kota Cirebon mengetahui rute yang dilalui jika ingin menggunakan transportasi umum tersebut.</p>
                 </div>
             </div>
