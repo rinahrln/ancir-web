@@ -3,16 +3,7 @@ import imgBrt from '../../../assets/img/brt.jpg';
 
 const Home = {
     async render() {
-        return `
-        <section class="page-section bg-light">
-            <div id="title" class="text-center">
-                <h2 class="section-heading text-uppercase">About</h2>
-            </div>
-            <div id="about" class="container text-center">
-                <p>ANCIR WEB merupakan aplikasi web yang digunakan untuk melihat rute, jadwal, dan juga informasi biaya pada Angkot dan BRT yang ada di kota Cirebon. ANCIR WEB memudahkan masyarakat Cirebon atau pengunjung baru yang datang ke kota Cirebon mengetahui rute yang dilalui jika ingin menggunakan transportasi umum tersebut.</p>
-            </div>
-        </section>
-        
+        return `        
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
@@ -37,6 +28,12 @@ const Home = {
                         </div>                         
                         </div>
                     </div>                                       
+                </div>
+                <div id="title" class="text-center mt-5">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                </div>
+                <div id="about" class="container text-center">
+                    <p>ANCIR WEB merupakan aplikasi web yang digunakan untuk melihat rute, jadwal, dan juga informasi biaya pada Angkot dan BRT yang ada di kota Cirebon. ANCIR WEB memudahkan masyarakat Cirebon atau pengunjung baru yang datang ke kota Cirebon mengetahui rute yang dilalui jika ingin menggunakan transportasi umum tersebut.</p>
                 </div>
             </div>
         </section>
