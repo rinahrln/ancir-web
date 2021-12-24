@@ -5,7 +5,7 @@ const detailBrt = (brt) => `
     <div class="text-center mt-3">
         <h2 class="section-heading text-uppercase">Rute BRT</h2>
     </div>
-    <h4 class="section-heading mt-3">Informasi Biaya</h4>
+    <h4 class="section-heading mt-3">Informasi Biaya dan Jam Operasional</h4>
     <table class="table table-success">
         <thead class="table-dark">
             <tr>
